@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    height: 62px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav a {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+.container {
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.container span {
+    color: rgb(206, 206, 102);
+}
+
+.container img {
+    margin: 40px 40px;
+}
+
+.container2 {
+    float:none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+}

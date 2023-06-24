@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: sel/index.html
+  upload: sel/index.html
+
+- url: /(.*)
+  static_files: sel/\1
+  upload: sel/(.*)
